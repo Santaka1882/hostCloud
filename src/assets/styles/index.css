@@ -1,0 +1,143 @@
+:root {
+  --main-blue: #00BCD4;
+  --main-purple: #7202BB;
+  --secondary-blue: #3264F5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #3934b4;
+}
+
+.header {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.header-title--container {
+  color: white;
+  font-weight: bold;
+}
+
+.header-title--container span{
+  font-size: 2rem;
+}
+
+.header-title--container p {
+  font-size: 1.4rem;
+}
+
+.nav-switch {
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+  color: var(--main-blue);
+  border: var(--main-blue);
+  background-color: white;
+  border-radius: 5px;
+  outline: none;
+}
+
+.nav-switch:hover nav, nav:hover {
+  position: absolute;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-switch img {
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  display: none;
+}
+
+.show {
+  position: absolute;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-button--container {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: 60px;
+}
+
+.nav-button--container .button {
+  display: block;
+  width: 90px;
+  height: 40px;
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 1.3rem;
+  border: 2px solid var(--main-blue);
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  outline: none;
+}
+
+.nav-button--container .login:hover {
+  background-color: var(--main-blue);
+}
+
+.nav-button--container .register {
+  background-color: var(--main-blue);
+}
+
+.nav-link--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.nav-link--container .list {
+  width: 100%;
+  list-style: none;
+}
+
+.nav-link--container li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  background-color: white;
+}
+
+.nav-link--container a {
+  color: black;
+  text-decoration: none;
+}
