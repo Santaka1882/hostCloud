@@ -15,7 +15,7 @@
 <body>
   <header class="header">
     <div class="header-title--container">
-      <p><span>HOST</span>CLOUD</p>
+      <a href="#"><span>HOST</span>CLOUD</a>
     </div>
 
   <button class="nav-switch" id="navButton">
@@ -39,9 +39,35 @@
     </nav>
   </header>
 
-  <section class="main" id="main">
-
-  </section>
+  <main class="main" id="main">
+    <section class="search">
+      <div class="search-main">
+        <h1>SEARCH YOUR DOMAIN</h1>
+        <div class="search-container">
+          <input type="text" placeholder="Enter your domain here...">
+          <button class="button">SEARCH NOW</button>
+        </div>
+        <div class="domain-type--container">
+          <label for=".com">
+            <input type="checkbox" name=".com" id=".com">
+            <p>.com ($10/yr)</p>
+          </label>
+          <label for=".net">
+            <input type="checkbox" name=".net" id=".net">
+            <p>.net ($12/yr)</p>
+          </label>
+          <label for=".org">
+            <input type="checkbox" name=".org" id=".org">
+            <p>.org ($7/yr)</p>
+          </label>
+          <label for=".in">
+            <input type="checkbox" name=".in" id=".in">
+            <p>.in ($6/yr)</p>
+          </label>
+        </div>
+      </div>
+    </section>
+  </main>
   <script src="./src/scripts/navbar.js"></script>
 </body>
 </html>
