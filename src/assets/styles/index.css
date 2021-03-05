@@ -295,3 +295,82 @@ body {
   font-size: 1.8rem;
   margin-bottom: 50px;
 }
+
+/* services */
+
+.services {
+  width: 100%;
+  padding: 100px 0;
+  background-color: white;
+}
+
+.services .services-info {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.services-info .services-info--color {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--detail-blue);
+}
+
+.services-info h2 {
+  margin-bottom: 15px;
+  text-align: left;
+  font-size: 3.5rem;
+  line-height: 35px;
+}
+
+.services-info p {
+  font-size: 1.4rem;
+  color: grey;
+}
+
+.features {
+  width: 100%;
+}
+
+.features-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features-container .feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 20px auto;
+  padding: 40px 50px;
+  border-radius: 10px;
+  background-color: var(--ligth-grey);
+}
+
+.database-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--detail-blue);
+}
+
+.database-container img {
+  width: 40px;
+}
+
+.feature .feature-title {
+  margin: 30px 0;
+  font-size: 2rem;
+}
+
+.feature p {
+  text-align: center;
+  font-size: 1.4rem;
+  color: grey;
+}
